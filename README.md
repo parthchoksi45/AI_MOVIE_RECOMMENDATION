@@ -40,6 +40,7 @@ And you are good to go.Here you need to enter input in different format mentione
 Just this and you are good to go<br>
 Note:If you get some error regarding module not found, please download those modules using "pip install module name"<br>
 <br>
+<h1>Code</h1>
 <b>Google Colab</b><br>
 #importing modules<br>
 #importing datasets<br>
@@ -62,7 +63,7 @@ Note:If you get some error regarding module not found, please download those mod
 
 
 <br>
-<b>Website</b><br>
+<h1>Website</h1><br>
 
 We also made Interface in the form of the website for the detector. The Backend is made using Flask, whereas the frontend is normal HTML and CSS and integrated python code from Google Colab<br><br>
 <img src="./images/1.1.gif" alt="NaN"/><br><br>
@@ -70,7 +71,7 @@ Movie Recommendation System <br><br>
 <img src="./images/1.2.gif" alt="NaN"/><br><br>
  
 
-Short Demo (Please Give it sometime to Load 😃)<br>
+Short Demo (Please Give it sometime to Load 😃)<br><br>
 <img src="./images/1.3.gif" alt="NaN"/><br>
  
 <h1>References</h1><br>
