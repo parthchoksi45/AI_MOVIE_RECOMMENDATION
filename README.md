@@ -16,22 +16,22 @@ The major Problem which we currently have are as follows:<br>
 •	All users rated at least 20 movies.<br>
 •	Each user represented by a unique id.<br>
 
-<h1>How to Run?</h1><br>
-<b>1)Running CollaborativeFiltering.ipynb:</b><br>
+<h1>How to Run?</h1><br><br>
+<b>1)Running CollaborativeFiltering.ipynb:</b><br><br>
     a)Download the "CollaborativeFiltering.ipynb" and "datasets" on your desktop<br>
     b)You can open this file on Google-colab/jupyter notebook etc.<br>
     c)In Google Colab add the two files:"movies.csv" and "ratings.csv"  from datasets folder in the run-time.<br>
-And you are good to go,you can add your own movie in the last cell and get recommended movies.<br>
+And you are good to go,you can add your own movie in the last cell and get recommended movies.<br><br>
 
-<b>2)Running Contentbasedfiltering.ipynb:</b><br>
+<b>2)Running Contentbasedfiltering.ipynb:</b><br><br>
     Here we tried another approach of recommendations system called content based filtering where movies are recommended based on their <br>genres. This is less efficient approach and has some disadvantages over collaborativefiltering approach.<br>
      a)Download the "ContentbasedFiltering.ipynb" and "datasets" on your desktop<br>
      b)You can open this file on Google-colab/jupyter notebook etc.<br>
      c)In Google Colab add the two files:"movies.csv" and "ratings.csv"  from datasets folder in the run-time.<br>
-And you are good to go.Here you need to enter input in different format mentioned in that cell itself.<br>
+And you are good to go.Here you need to enter input in different format mentioned in that cell itself.<br><br>
 
 
-<b>3)Website:</b><br>
+<b>3)Website:</b><br><br>
     Finally we integrated CollaborativeFiltering and made a website using flask where you can enter the movie and get some recommendations.<br>
     Requirements:Python,Flask etc..<br>
     a)Download the "WEB-APPLICATION" folder on your desktop<br>
