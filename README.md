@@ -16,7 +16,7 @@ Dataset:
 •	All users rated at least 20 movies.
 •	Each user represented by a unique id.
 
-How to Run?
+How to Run?<br>
 1)Running CollaborativeFiltering.ipynb:
     a)Download the "CollaborativeFiltering.ipynb" and "datasets" on your desktop
     b)You can open this file on Google-colab/jupyter notebook etc.
