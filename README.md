@@ -57,34 +57,31 @@ Note:If you get some error regarding module not found, please download those mod
 #vvimp: your movie must be present in your dataset.<br>
 <img src="./images/5.png" alt="NaN"/><br>
  
-# The recommended movies are  mentioned above<br>
-#The similarity measure of above mentioned movies are :   <br>  
-#The predicted rating are  mentioned above<br>
-#The actual rating are  mentioned above<br>
+<b>Output:</b><br>
 <img src="./images/6.png" alt="NaN"/><br>
 
 
- 
-Website<br>
+<br>
+<b>Website</b><br>
 
-We also made Interface in the form of the website for the detector. The Backend is made using Flask, whereas the frontend is normal HTML <br>and CSS and integrated python code from Google Colab<br>
-<img src="./images/1.1.gif" alt="NaN"/><br>
-Movie Recommendation System <br>
-<img src="./images/1.2.gif" alt="NaN"/><br>
+We also made Interface in the form of the website for the detector. The Backend is made using Flask, whereas the frontend is normal HTML and CSS and integrated python code from Google Colab<br><br>
+<img src="./images/1.1.gif" alt="NaN"/><br><br>
+Movie Recommendation System <br><br>
+<img src="./images/1.2.gif" alt="NaN"/><br><br>
  
 
 Short Demo (Please Give it sometime to Load 😃)<br>
 <img src="./images/1.3.gif" alt="NaN"/><br>
  
-References<br>
+<h1>References</h1><br>
 Dataset and Features:<br>
 •	https://files.grouplens.org/datasets/movielens/ml-latest-small.zip<br>
 
-Research Papers:<br>
+<b>Research Papers:</b><br>
 •	For  Movie Recommendation System:<br>
 •	https://www.itm-conferences.org/articles/itmconf/pdf/2017/04/itmconf_ita2017_04008.pdf<br>
 •	https://research.netflix.com/research-area/recommendations<br>
-Future Scope<br>
+<b>Future Scope</b><br>
 •	Integration of this service in a form of plugin in Mobile apps to Reduce user time to search movie of his/her preferences.<br>
 •	Implementing more Functionality Like Hybrid MRS in order to Pull over more Justified Recommendation for User and will also working to get over better accuracy.<br>
 
