@@ -1,14 +1,14 @@
 # AI_MOVIE_RECOMMENDATION<br>
 This is a project in which we can recommend user movie of his/her preferences.<br>
    
-Problem Statement<br>
-•	 Recommendation systems imitate this social  process to enable quick filtering of the  information on the web<br>
+<h1>Problem Statement</h1><br>
+– Recommendation systems imitate this social  process to enable quick filtering of the information on the web<br>
 The major Problem which we currently have are as follows:<br>
 – Recommendations are not personalized as per user attributes and all users see the same recommendations irrespective of their preferences<br>
-– Another problem is that the number of reviews (which reflects the number of people who have viewed the movie) will vary for each movie <br>and hence the average star rating will have discrepancies. <br>
-– The system doesn’t take into account the regional and language preferences and might recommend movies in languages that a regional <br>dialect speaking individual might not understand<br>
+– Another problem is that the number of reviews (which reflects the number of people who have viewed the movie) will vary for each movie and hence the average star rating will have discrepancies. <br>
+– The system doesn’t take into account the regional and language preferences and might recommend movies in languages that a regional dialect speaking individual might not understand<br>
  
-Dataset:<br>
+<h1>Dataset:</h1><br>
 •	We have used Movie Lens Dataset by Group Lens<br>
 •	This data set consists of:<br>
 •	100,000 ratings (1-5) from 610 users on 193609  movies.<br>
@@ -16,14 +16,14 @@ Dataset:<br>
 •	All users rated at least 20 movies.<br>
 •	Each user represented by a unique id.<br>
 
-How to Run?<br>
-1)Running CollaborativeFiltering.ipynb:<br>
+<h1>How to Run?</h1><br>
+<b>1)Running CollaborativeFiltering.ipynb:</b><br>
     a)Download the "CollaborativeFiltering.ipynb" and "datasets" on your desktop<br>
     b)You can open this file on Google-colab/jupyter notebook etc.<br>
     c)In Google Colab add the two files:"movies.csv" and "ratings.csv"  from datasets folder in the run-time.<br>
 And you are good to go,you can add your own movie in the last cell and get recommended movies.<br>
 
-2)Running Contentbasedfiltering.ipynb:<br>
+<b>2)Running Contentbasedfiltering.ipynb:</b><br>
     Here we tried another approach of recommendations system called content based filtering where movies are recommended based on their <br>genres. This is less efficient approach and has some disadvantages over collaborativefiltering approach.<br>
      a)Download the "ContentbasedFiltering.ipynb" and "datasets" on your desktop<br>
      b)You can open this file on Google-colab/jupyter notebook etc.<br>
@@ -31,15 +31,16 @@ And you are good to go,you can add your own movie in the last cell and get recom
 And you are good to go.Here you need to enter input in different format mentioned in that cell itself.<br>
 
 
-3)Website:<br>
-    Finally we integrated CollaborativeFiltering and made a website using flask where you can enter the movie and get some <br>recommendations.<br>
+<b>3)Website:</b><br>
+    Finally we integrated CollaborativeFiltering and made a website using flask where you can enter the movie and get some recommendations.<br>
     Requirements:Python,Flask etc..<br>
     a)Download the "WEB-APPLICATION" folder on your desktop<br>
     b)Navigate to the folder and run the following command:<br>
         $ python main.py<br>
 Just this and you are good to go<br>
 Note:If you get some error regarding module not found, please download those modules using "pip install module name"<br>
-Google Colab<br>
+<br>
+<b>Google Colab</b><br>
 #importing modules<br>
 #importing datasets<br>
 <img src="./images/1.png" alt="datasets"/><br>
@@ -85,5 +86,5 @@ Research Papers:<br>
 •	https://research.netflix.com/research-area/recommendations<br>
 Future Scope<br>
 •	Integration of this service in a form of plugin in Mobile apps to Reduce user time to search movie of his/her preferences.<br>
-•	Implementing more Functionality Like Hybrid MRS in order to Pull over more Justified Recommendation for User and will also working to<br> get over better accuracy.<br>
+•	Implementing more Functionality Like Hybrid MRS in order to Pull over more Justified Recommendation for User and will also working to get over better accuracy.<br>
 
