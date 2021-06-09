@@ -16,7 +16,7 @@ The major Problem which we currently have are as follows:<br>
 •	All users rated at least 20 movies.<br>
 •	Each user represented by a unique id.<br>
 
-<h1>How to Run?</h1><br><br>
+<h1>How to Run?</h1><br>
 <b>1)Running CollaborativeFiltering.ipynb:</b><br><br>
     a)Download the "CollaborativeFiltering.ipynb" and "datasets" on your desktop<br>
     b)You can open this file on Google-colab/jupyter notebook etc.<br>
